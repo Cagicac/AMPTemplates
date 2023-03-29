@@ -1,13 +1,13 @@
 [	
     {
-        "ConfigFile":"./BepInEx/config/valheim_plus.cfg", 
+        "ConfigFile":"./BepInEx/config/nodejs.cfg", 
         "AutoMap":true,
         "ConfigType":"ini",
         "ConfigFormat":"{0}={1}",
         "ConfigFormatRegex":"^(?<key>.+?)=(?<value>.*?)$"
     },
     {
-        "ConfigFile":"./BepInEx/config/valheim_plus.cfg", 
+        "ConfigFile":"./BepInEx/config/nodejs.cfg", 
         "AutoMap":true,
         "ConfigType":"ini",
         "ConfigFormat":"{0} = {1}",
