@@ -1,0 +1,45 @@
+[
+    {
+        "DisplayName":"Server Port",
+ « Category »:"Paramètres du serveur »,
+ « Description »:" »,
+ « Mots-clés »:" »,
+ « FieldName »:"$ServerPort »,
+ « InputType »:"nombre »,
+ « Masqué »:vrai,
+ « IsFlagArgument »:false,
+ « ParamFieldName »:"$.port »,
+ « IncludeInCommandLine »:false,
+ « EnumValues »:{}
+    },
+    {
+ « DisplayName »:"URL de téléchargement »,
+ « Category »:"Paramètres du serveur »,
+ « Description »:"Définit l’URL complète à partir de laquelle télécharger le serveur. [Connexion] (https://foundryvtt.com/) pour obtenir une URL à temporisation actuelle, puis mettre à jour le serveur avant le délai d’expiration »,
+ « Mots-clés »:"télécharger,url »,
+ « FieldName »:"DownloadURL »,
+ « InputType »:"text »,
+ « IsFlagArgument »:false,
+ « ParamFieldName »:"DownloadURL »,
+ « IncludeInCommandLine »:false,
+ « DefaultValue »:" »,
+ « Espace réservé »:"https://foundryvtt.s3.amazonaws.com »,
+ « EnumValues »:{}
+    },
+    {
+ « DisplayName »:"Activer UPnP »,
+ « Category »:"Paramètres du serveur »,
+ « Description »:"Si ce paramètre est défini, UPnP sera activé sur le serveur. Cette fonctionnalité nécessite un routeur compatible UPnP pour fonctionner »,
+ « Mots-clés »:"upnp »,
+ « FieldName »:"upnp »,
+ « InputType »:"case à cocher »,
+ « IsFlagArgument »:false,
+ « ParamFieldName »:"upnp »,
+ « IncludeInCommandLine »:false,
+ « DefaultValue »:"false »,
+ « EnumValues »:{
+ « Faux »:"faux »,
+ « Vrai »:"vrai »
+        }
+    }
+]

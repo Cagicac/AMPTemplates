@@ -1,0 +1,25 @@
+[
+    {
+ « UpdateStageName »:"Création du répertoire du serveur »,
+ « UpdateSourcePlatform »:"Tous »,
+ « UpdateSource »:"CreateDirectory »,
+ « UpdateSourceArgs »:"{{$FullBaseDir}}serveur »
+    },
+    {
+ « UpdateStageName »:"Création du répertoire de données »,
+ « UpdateSourcePlatform »:"Tous »,
+ « UpdateSource »:"CreateDirectory »,
+ « UpdateSourceArgs »:"{{$FullBaseDir}}data »
+    },
+    {
+ « UpdateStageName »:"Téléchargement du serveur »,
+ « UpdateSourcePlatform »:"Tous »,
+ « UpdateSource »:"FetchURL »,
+ « UpdateSourceData »:"{{DownloadURL}} »,
+ « UpdateSourceTarget »:"{{$FullBaseDir}}serveur »,
+ « UpdateSourceArgs »:"FoundryVTT.zip »,
+ « UnzipUpdateSource »:true,
+ « OverwriteExistingFiles »:true,
+ « DeleteAfterExtract »:true
+    }
+]
